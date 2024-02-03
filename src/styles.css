@@ -1,0 +1,98 @@
+:root {
+  --colorbg: #f4f3eb;
+  --black: #131313;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: var(--colorbg);
+  display: grid;
+  min-block-size: 100vh;
+  align-self: center;
+  align-content: center;
+}
+canvas {
+  display: block;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+pre {
+  padding: 1rem;
+  color: var(--black) !important;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1024px;
+  margin: auto;
+}
+.container--color {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  max-width: 1024px;
+  margin: 3rem auto;
+  gap: 1rem;
+}
+.color_sample {
+  border: 2px solid #fff;
+  & > * {
+    cursor: pointer;
+    margin-inline: auto;
+    width: 100%;
+    display: block;
+    border-radius: 0;
+  }
+}
+/* Style for the header */
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 40vw; /* Adjust the width as needed */
+  height: 100%;
+
+  overflow-y: auto; /* Allows scrolling if content is taller than the viewport */
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 5;
+}
+
+#sidebar {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+/* Initial hide style for ul#sketchList */
+ul#sketchList {
+  display: none;
+  background-color: rgba(
+    220,
+    220,
+    220,
+    0.95
+  ); /* Light grey background, adjust as needed */
+  padding: 1.5rem;
+}
+
+/* Style for the toggle button (add this if you're using a button to toggle the list) */
+a.btn,
+button.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background-color: #007bff;
+}

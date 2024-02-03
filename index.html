@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>p5sketch</title>
+    <script src="/lib/p5.js"></script>
+    <!-- <script src="/lib/p5.sound.min.js"></script> -->
+    <!-- <script src="/lib/p5.tween.min.js"></script> -->
+    <!-- <script src="/lib/webmidi.iife.js"></script> -->
+    <!-- <script src="/lib/CCapture.all.min.js"></script> -->
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav id="sidebar">
+        <a class="btn" href="/">home</a>
+        <button class="btn primary" id="latestSketchBtn">LatestSketch</button>
+        <button class="btn" id="toggleColorBtn">ColorHelper</button>
+        <button class="btn" id="toggleListBtn">Menu</button>
+        <ul id="sketchList"></ul>
+      </nav>
+    </header>
+    <main>
+      <div id="canvas"></div>
+      <aside id="colorHelper"></aside>
+    </main>
+
+    <!-- helper -->
+    <script src="/js/_canvas-v1.0.0.js"></script>
+    <script src="/js/_grid-v1.0.0.js"></script>
+    <!-- <script src="/js/_webcam-v1.0.0.js"></script> -->
+    <!-- <script src="/_colors.js"></script> -->
+    <!-- <script src="/_music.js"></script> -->
+    <!-- <script src="/_ccapture.js"></script> -->
+
+    <script type="module" src="src/js/render-colorHelper.js"></script>
+    <script type="module" src="src/js/render-sketchUrl.js"></script>
+    <script type="module" src="src/js/render-sketchList.js"></script>
+  </body>
+</html>

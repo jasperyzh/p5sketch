@@ -1,0 +1,65 @@
+[
+  {
+    "quarter": "22q3",
+    "sketches": [
+      {
+        "name": "dvd-logo",
+        "path": "/sketches-22q3/dvd-logo"
+      }
+    ]
+  },
+  {
+    "quarter": "23q4",
+    "sketches": [
+      {
+        "name": "2312-noisey_beep_beep_tock",
+        "path": "/sketches-23q4/2312-noisey_beep_beep_tock"
+      },
+      {
+        "name": "2312-rasterize_elephant",
+        "path": "/sketches-23q4/2312-rasterize_elephant"
+      },
+      {
+        "name": "2312-shape_variant",
+        "path": "/sketches-23q4/2312-shape_variant"
+      },
+      {
+        "name": "2312-sketch",
+        "path": "/sketches-23q4/2312-sketch"
+      },
+      {
+        "name": "2312-square_grid_haiku",
+        "path": "/sketches-23q4/2312-square_grid_haiku"
+      },
+      {
+        "name": "231230-crane_thankyou",
+        "path": "/sketches-23q4/231230-crane_thankyou"
+      }
+    ]
+  },
+  {
+    "quarter": "24q1",
+    "sketches": [
+      {
+        "name": "240106-lines_interval",
+        "path": "/sketches-24q1/240106-lines_interval"
+      },
+      {
+        "name": "240110-wolfram_cellular_automata",
+        "path": "/sketches-24q1/240110-wolfram_cellular_automata"
+      },
+      {
+        "name": "240122-ascii_webcam",
+        "path": "/sketches-24q1/240122-ascii_webcam"
+      },
+      {
+        "name": "240203-cellular_automata",
+        "path": "/sketches-24q1/240203-cellular_automata"
+      },
+      {
+        "name": "240203-circle",
+        "path": "/sketches-24q1/240203-circle"
+      }
+    ]
+  }
+]
