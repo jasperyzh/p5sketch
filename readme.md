@@ -37,7 +37,10 @@ have not figure out how to version control yet so it dont accidentally deprecate
 
 - toggle for mybrand color for easy copy/paste 
 
-### keyPressed_saveGif()
+### some useful stuff like
+- setup_canvas()
+- keyPressed_saveGif()
+- class:grid
 
 
 ## License

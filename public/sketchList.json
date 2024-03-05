@@ -59,6 +59,10 @@
       {
         "name": "240203-circle",
         "path": "/sketches-24q1/240203-circle"
+      },
+      {
+        "name": "240305-floyd_steinberg_dithering",
+        "path": "/sketches-24q1/240305-floyd_steinberg_dithering"
       }
     ]
   }

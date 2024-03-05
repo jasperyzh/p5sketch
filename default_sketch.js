@@ -18,14 +18,23 @@ function setup() {
   default_loop = new NoiseLoopGenerator(0.05, 20.0, 240, width, 99);
   default_grid = new Grid(0, 0, width * Math.pow(GR, -4));
 
-  newsquaregrid = new NewSquareGrid(0, 0, width /4);
+  newsquaregrid = new NewSquareGrid(0, 0, width / 4);
+
 
   // setup_cellularautomata();
 }
 function draw() {
   background(215);
 
-  newsquaregrid.draw();
+  // newsquaregrid.draw();
+
+  
+  // Set the font for text
+  textFont('Roboto');
+  // Draw some text
+  textSize(32);
+  fill(0);
+  text("Hello Google Fonts!", 50, 100);
 
   // default_loop.draw();
   draw_debug(false);
@@ -83,6 +92,3 @@ function draw_rpg_grid() {
     }
   }
 }
-
-
-

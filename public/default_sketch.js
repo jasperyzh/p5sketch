@@ -25,7 +25,15 @@ function setup() {
 function draw() {
   background(215);
 
-  newsquaregrid.draw();
+  // newsquaregrid.draw();
+
+  // Set the font for text
+  textFont('Rubik');
+  // Draw some text
+  textSize(62);
+  fill(0);
+  text("Hello Google Fonts!", 50, 100);
+
 
   // default_loop.draw();
   draw_debug(false);
